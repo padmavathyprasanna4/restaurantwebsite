@@ -1,0 +1,153 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 40px; /* Adjust padding for spacing */
+  background-color: #fff;
+}
+
+.hero-content {
+  flex: 1;
+  padding-right: 20px; /* Add space between text and image */
+  margin-top: 250px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  gap: 15px;
+}
+
+.order-btn,
+.view-menu-btn {
+  padding: 12px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 80px;
+}
+
+.order-btn {
+  background-color: #8b4513; /* Brown color for Order Online button */
+  color: white;
+}
+
+.view-menu-btn {
+  background-color: #efa4a4; /* Light color for View Menu button */
+  color: #333;
+}
+
+.order-btn:hover {
+  background-color: #a0522d; /* Darker brown on hover */
+}
+
+.view-menu-btn:hover {
+  background-color: #e0e0e0; /* Slightly darker background on hover */
+}
+
+.hero-image img {
+  width: 500px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-top: 550px;
+}
+
+/* Existing styles... */
+
+.booking-form {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensure the form appears on top */
+}
+
+.form-container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  width: 400px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.form-container button {
+  padding: 10px;
+  background-color: #8b4513; /* Match the Book Table button color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-container button[type="button"] {
+  background-color: #ccc; /* Cancel button color */
+}
+
+.form-container button:hover {
+  background-color: #a0522d; /* Darker brown on hover */
+}
+
+.form-container button[type="button"]:hover {
+  background-color: #999;
+}
+
+/* Bottom content */
+.bottom-content {
+  text-align: center;
+  margin-top: -50px;
+  padding: 40px;
+  background-color: #fafafa;
+}
+
+.bottom-content h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.bottom-content p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}

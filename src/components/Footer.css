@@ -1,0 +1,32 @@
+.footer {
+  background-color: #111;
+  color: #fff;
+  padding: 20px 0; /* Adjust padding for vertical space */
+  text-align: center;
+  width: 100%; /* Full width */
+  position: relative; /* Allow footer to be at the bottom */
+  bottom: 0;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px; /* Ensure padding inside the footer */
+}
+
+/* Make sure the footer sticks to the bottom of the page when content is short */
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.main-content {
+  min-height: calc(100vh - 160px); /* Adjust based on navbar and footer height */
+  padding-bottom: 100px; /* Add padding to avoid content hiding behind footer */
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
